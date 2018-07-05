@@ -23,7 +23,7 @@ class MyStratumProxy extends StratumProxy {
 }
 
 const app = net.createServer(socket => {
-  const connection = new StratumProxy(socket);
+  const connection = new MyStratumProxy(socket);
 
   connection.on('connected', () => console.log('connected'));
   connection.on('data', data => console.log('data', data));
