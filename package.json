@@ -1,0 +1,22 @@
+{
+  "name": "js-stratum-proxy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbeckeri/js-stratum-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbeckeri/js-stratum-proxy/issues"
+  },
+  "homepage": "https://github.com/hbeckeri/js-stratum-proxy#readme",
+  "dependencies": {
+    "stream-json": "0.6.1"
+  }
+}
