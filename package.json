@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hbeckeri/js-stratum-proxy#readme",
   "dependencies": {
+    "moment": "2.22.2",
     "stream-json": "0.6.1"
   }
 }
