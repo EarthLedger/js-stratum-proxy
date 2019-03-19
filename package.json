@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hbeckeri/js-stratum-proxy.git"
+    "url": "git+https://github.com/kickass-solution/js-stratum-proxy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hbeckeri/js-stratum-proxy/issues"
+    "url": "https://github.com/kickass-solution/js-stratum-proxy/issues"
   },
-  "homepage": "https://github.com/hbeckeri/js-stratum-proxy#readme",
+  "homepage": "https://github.com/kickass-solution/js-stratum-proxy#readme",
   "dependencies": {
     "lodash": "4.17.11",
     "moment": "2.22.2",
