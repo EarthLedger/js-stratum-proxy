@@ -2,12 +2,12 @@ const net = require('net');
 const StratumProxy = require('./index');
 
 const app = new StratumProxy({
-	poolAddress: 'cryptonightheavy.usa.nicehash.com',
-	poolPort: 3364,
-	minerName: 'poolminer',
-	address: '3Js4sXXk9Ca8Y52CezUxuZcDugVx8NtrDT',
+	poolAddress: 'daggerhashimoto.usa.nicehash.com',
+	poolPort: 3353,
+	minerName: 'proxy',
+	address: '3Js4sXXk9Ca8Y52CezUxuZcDugVx8NtrDT'
 });
 
-app.listen(3333, () => {
-	console.log(`Proxy server listening at port 3333`);
-});
+app.on('log', ({ response }) => console.log(response));
+
+app.listen(3333);
