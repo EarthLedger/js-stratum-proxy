@@ -405,6 +405,4 @@ UpgradeLog*.htm
 FakesAssemblies/
 *.sublime*
 
-docker-compose.yml
-
 notes.txt
