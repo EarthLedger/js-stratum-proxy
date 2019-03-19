@@ -2,11 +2,17 @@ version: '3.3'
   
 services:
    node:
+      image: hbeckeri/js-stratum-proxy
       build:
          context: .
       restart: always
       user: node
       working_dir: /home/node/app
       command: "npm start"
+      environment:
+         - POOL_ADDRESS=daggerhashimoto.usa.nicehash.com
+         - POOL_PORT=3353
+         - MINER_NAME=proxy
+         - MINER_ADDRESS=3Js4sXXk9Ca8Y52CezUxuZcDugVx8NtrDT
       ports:
          - 3333:3333
