@@ -10,8 +10,8 @@ services:
       working_dir: /home/node/app
       command: "npm start"
       environment:
-         - POOL_ADDRESS=daggerhashimoto.usa.nicehash.com
-         - POOL_PORT=3353
+         - POOL_ADDRESS=sha256.eu.nicehash.com
+         - POOL_PORT=3334
          - MINER_NAME=proxy
          - MINER_ADDRESS=3Js4sXXk9Ca8Y52CezUxuZcDugVx8NtrDT
       ports:
