@@ -14,5 +14,6 @@ const app = new StratumProxy({
 });
 
 app.on('log', ({ response }) => console.log(response));
+app.on('data', ({ response }) => console.log(response));
 
 app.listen(3333);
